@@ -1686,23 +1686,55 @@ footer {
 /* About Section - Mobile Fix */
 @media (max-width: 900px) {
     .image-grid {
-        height: 280px;
-        max-width: 100%;
-        overflow: hidden;
+        height: 300px;
+        position: relative;
     }
     
     .img-large {
-        width: 200px;
-        height: 180px;
+        width: 220px;
+        height: 200px;
         top: 0;
         left: 0;
+        position: absolute;
+    }
+    
+    .img-small-left {
+        width: 140px;
+        height: 140px;
+        bottom: 0;
+        left: 20px;
+        position: absolute;
+    }
+    
+    .img-small-right {
+        width: 150px;
+        height: 150px;
+        bottom: 0;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 600px) {
+    .image-grid {
+        height: 280px;
+        position: relative;
+    }
+    
+    .img-large {
+        width: 180px;
+        height: 160px;
+        top: 0;
+        left: 0;
+        position: absolute;
     }
     
     .img-small-left {
         width: 120px;
         height: 120px;
         bottom: 0;
-        left: 10px;
+        left: 15px;
+        position: absolute;
     }
     
     .img-small-right {
@@ -1710,28 +1742,30 @@ footer {
         height: 130px;
         bottom: 0;
         right: 5px;
+        position: absolute;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .image-grid {
-        height: 240px;
-        max-width: 100%;
-        overflow: hidden;
+        height: 250px;
+        position: relative;
     }
     
     .img-large {
-        width: 160px;
-        height: 150px;
+        width: 150px;
+        height: 140px;
         top: 0;
         left: 0;
+        position: absolute;
     }
     
     .img-small-left {
         width: 100px;
         height: 100px;
         bottom: 0;
-        left: 5px;
+        left: 10px;
+        position: absolute;
     }
     
     .img-small-right {
@@ -1739,34 +1773,6 @@ footer {
         height: 110px;
         bottom: 0;
         right: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .image-grid {
-        height: 200px;
-        max-width: 100%;
-        overflow: hidden;
-    }
-    
-    .img-large {
-        width: 130px;
-        height: 120px;
-        top: 0;
-        left: 0;
-    }
-    
-    .img-small-left {
-        width: 80px;
-        height: 80px;
-        bottom: 0;
-        left: 3px;
-    }
-    
-    .img-small-right {
-        width: 90px;
-        height: 90px;
-        bottom: 0;
-        right: 0;
+        position: absolute;
     }
 }
