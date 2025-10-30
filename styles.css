@@ -1648,6 +1648,7 @@ footer {
         display: block;
         text-align: center;
         margin: 3rem auto 4rem auto; 
+        margin-bottom: 80px;
     }
     
     .hero-images {
