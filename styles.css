@@ -1528,15 +1528,16 @@ footer {
     .hero-content .cta-btn {
         padding: 0.8rem 1.5rem;
         font-size: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
     
     .hero-images {
-        height: 380px;
+        height: 350px;
         width: 100%;
         display: flex;
         justify-content: center;
         margin-bottom: 3rem;
+        margin-top: 0; /* Remove extra margin */
     }
     
     .image-stack {
@@ -1646,12 +1647,13 @@ footer {
         padding: 0.7rem 1.2rem;
         display: block;
         text-align: center;
-        margin: 2rem auto;
+        margin: 3rem auto 4rem auto; 
     }
     
     .hero-images {
-        height: 320px;
+        height: 300px;
         margin-bottom: 2rem;
+         margin-top: 0;
     }
     
     .image-stack {
